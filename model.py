@@ -13,7 +13,9 @@ class TranslateModel:
         self.dst_lang = dst_lang
 
         self.tokenizer = T5Tokenizer.from_pretrained(MODEL_PATH)
-        self.model = T5ForConditionalGeneration.from_pretrained(MODEL_PATH, return_dict=True)
+        self.model = T5ForConditionalGeneration.from_pretrained(
+            MODEL_PATH, return_dict=True
+        )
 
     def change_dst_lang(self, lang):
         """Set another dst language."""
@@ -25,6 +27,8 @@ class TranslateModel:
         prefix = f"translate to {self.dst_lang}: "
         input_ids = self.tokenizer(prefix + text, return_tensors="pt")
         generated_tokens = self.model.generate(**input_ids)
-        result = self.tokenizer.batch_decode(generated_tokens, skip_special_tokens=True)[0]
+        result = self.tokenizer.batch_decode(
+            generated_tokens, skip_special_tokens=True
+        )[0]
 
         return result
