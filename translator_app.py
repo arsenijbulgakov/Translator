@@ -1,7 +1,7 @@
 """UI logic of the app."""
-from tkinter import Entry
 import tkinter as tk
-from tkinter import ttk
+from tkinter import Entry, ttk
+
 import model
 
 
