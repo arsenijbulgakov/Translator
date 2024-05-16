@@ -15,6 +15,7 @@ flake8 = "*"
 black = "*"
 pydocstyle = "*"
 sphinx = "*"
+babel = "*"
 
 [requires]
 python_version = "3.10"
