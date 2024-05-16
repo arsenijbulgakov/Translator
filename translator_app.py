@@ -1,10 +1,10 @@
 """UI logic of the app."""
+import gettext
 import tkinter as tk
 from tkinter import Entry, ttk
 
 import model
 
-import gettext
 translation = gettext.translation("msg", "po", fallback=True)
 _, ngettext = translation.gettext, translation.ngettext
 
