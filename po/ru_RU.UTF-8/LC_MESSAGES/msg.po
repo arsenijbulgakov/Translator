@@ -19,43 +19,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
 
-#: app/translator_app.py:17 translator_app.py:17
+#: translator_app.py:17
 msgid "The weights of the model are being loaded, please wait"
 msgstr "Веса модели подгружаются, подождите пожалуйста"
 
-#: app/translator_app.py:18 translator_app.py:18
+#: translator_app.py:18
 msgid "This process can usually take up to 2 minutes"
 msgstr "Обычно этот процесс может занять до 2-х минут"
 
-#: app/translator_app.py:63 translator_app.py:63
+#: translator_app.py:63
 msgid "Go to the translation"
 msgstr "Перейти к переводу"
 
-#: app/translator_app.py:74 translator_app.py:74
+#: translator_app.py:74
 msgid "Translate from:"
 msgstr "Перевести c:"
 
-#: app/translator_app.py:79 translator_app.py:79
+#: translator_app.py:79
 msgid "Translate to:"
 msgstr "Перевести на:"
 
-#: app/translator_app.py:86 translator_app.py:86
+#: translator_app.py:86
 msgid "Confirm!"
 msgstr "Подтвердить!"
 
-#: app/translator_app.py:96 translator_app.py:96
+#: translator_app.py:96
 msgid "Text for translation"
 msgstr "Текст для перевода"
 
-#: app/translator_app.py:99 translator_app.py:99
+#: translator_app.py:99
 msgid "Translate"
 msgstr "Перевести"
 
-#: app/translator_app.py:111 translator_app.py:111
+#: translator_app.py:111
 msgid "Translate another text"
 msgstr "Перевести другой текст"
 
-#: app/translator_app.py:113 translator_app.py:113
+#: translator_app.py:113
 msgid "Change the translation language"
 msgstr "Поменять язык перевода"
 
