@@ -10,7 +10,7 @@ Welcome to TranslatorApp's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   ./translator.rst
+   translator
 
 
 
