@@ -5,7 +5,7 @@ Translator.model module
 ---------------------------
 .. automodule:: model
    :members:
-   :undoc-members:
+   :show-inheritance:
 
 
 Translator.translator_app module
